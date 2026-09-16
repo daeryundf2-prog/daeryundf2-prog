@@ -18,6 +18,7 @@ An integrated family of developer-first open-source tools designed for determini
 | Repository | Primary Tech | Role & Capabilities |
 | :--- | :--- | :--- |
 | **[`LAZYANTIGRAVITY`](https://github.com/daeryundf2-prog/LAZYANTIGRAVITY)** | TypeScript / Node | **Core Orchestration Layer**: 36+ specialist engineering skills, zero-latency IPC state blackboard, and automated AST/test verification gates. |
+| **[`rapid`](https://github.com/daeryundf2-prog/rapid)** | Python / FastAPI | **DFIR Triage Workbench**: Local-first digital forensic triage platform, 50+ artifact collectors, timeline analysis, and evidence indexing. |
 | **[`lazyforensic`](https://github.com/daeryundf2-prog/lazyforensic)** | Python | **Digital Forensics Suite**: Fail-closed evidence integrity engine, timeline reconstruction, and SHA-256 chain-of-custody tracking. |
 | **[`lazyagentic`](https://github.com/daeryundf2-prog/lazyagentic)** | JavaScript / Node | **Prompt Governance**: Agentic sanctuary architecture enforcing strict fail-closed anti-hallucination mandates and deterministic reasoning. |
 | **[`lazyothers`](https://github.com/daeryundf2-prog/lazyothers)** | HTML / JS / Python | **Document & Domain Automation**: High-performance HWP/HWPX/PDF parsers, court evidence binders, PII maskers, and 3D WebGL interfaces. |
@@ -27,6 +28,7 @@ An integrated family of developer-first open-source tools designed for determini
 ```mermaid
 flowchart LR
     LA["LAZYANTIGRAVITY\n(Orchestration Core)"] -->|"Quality Gates & IPC"| LF["lazyforensic\n(Evidence Integrity)"]
+    LA -->|"Triage Automations"| RP["rapid\n(DFIR Workbench)"]
     LA -->|"Sanctuary Policies"| LG["lazyagentic\n(Governance & Safety)"]
     LA -->|"Document Pipelines"| LO["lazyothers\n(Parsers & 3D Web)"]
     LF -->|"High-Throughput Frames"| FT["frametrace\n(Rust Extraction)"]

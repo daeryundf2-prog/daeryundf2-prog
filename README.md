@@ -17,21 +17,26 @@ An integrated family of developer-first open-source tools designed for determini
 
 | Repository | Primary Tech | Role & Capabilities |
 | :--- | :--- | :--- |
-| **[`LAZYANTIGRAVITY`](https://github.com/daeryundf2-prog/LAZYANTIGRAVITY)** | TypeScript / Node | **Core Orchestration Layer**: 36+ specialist engineering skills, zero-latency IPC state blackboard, and automated AST/test verification gates. |
+| **[`LAZYANTIGRAVITY`](https://github.com/daeryundf2-prog/LAZYANTIGRAVITY)** | TypeScript / Node | **Core Orchestration Layer**: 26 specialist engineering skills (shared + component-materialized), zero-latency IPC state blackboard, and automated AST/test verification gates. |
 | **[`rapid`](https://github.com/daeryundf2-prog/rapid)** | Python / FastAPI | **DFIR Triage Workbench**: Local-first digital forensic triage platform, 50+ artifact collectors, timeline analysis, and evidence indexing. |
 | **[`lazyforensic`](https://github.com/daeryundf2-prog/lazyforensic)** | Python | **Digital Forensics Suite**: Fail-closed evidence integrity engine, timeline reconstruction, and SHA-256 chain-of-custody tracking. |
-| **[`lazyagentic`](https://github.com/daeryundf2-prog/lazyagentic)** | JavaScript / Node | **Prompt Governance**: Agentic sanctuary architecture enforcing strict fail-closed anti-hallucination mandates and deterministic reasoning. |
-| **[`lazyothers`](https://github.com/daeryundf2-prog/lazyothers)** | HTML / JS / Python | **Document & Domain Automation**: High-performance HWP/HWPX/PDF parsers, court evidence binders, PII maskers, and 3D WebGL interfaces. |
-| **[`frametrace`](https://github.com/daeryundf2-prog/frametrace)** | Rust | **Multimedia Forensics**: High-throughput video frame extraction and tamper-evident multimedia artifact processing pipeline. |
+| **[`lazyagentic`](https://github.com/daeryundf2-prog/lazyagentic)** | Markdown / Node | **Prompt Governance**: Rules-first agentic sanctuary — routed markdown rule modules enforcing fail-closed anti-hallucination mandates; optional `enforced/` guard package is opt-in advisory. |
+| **[`lazyothers`](https://github.com/daeryundf2-prog/lazyothers)** | Python / Node | **Korean Legal-Tech & Document Automation**: HWP/HWPX/PDF parsers, ECFS evidence stamping & court binders, PII maskers, and Humanize KR prose rewriting. |
+| **[`frametrace`](https://github.com/daeryundf2-prog/frametrace)** | Rust | **Video-Evidence Workstation**: Local-first review & carving of blackbox/CCTV/DVR video evidence — E01 image import, MP4/AVI/DAV carving, inode recovery, review dashboards & case reports. |
 | **[`deepfake-lens`](https://github.com/daeryundf2-prog/deepfake-lens)** | Python | **AI Authenticity Radar**: Multimodal deepfake detection and synthetic media provenance verification engine. |
+| **[`lazydiagram`](https://github.com/daeryundf2-prog/lazydiagram)** | HTML / SVG | **Diagram Design Skill**: 39 visual diagram types rendered as self-contained HTML/SVG/PNG, Mermaid/drawio redraw, and brand-token onboarding. |
+| **[`lazyradar`](https://github.com/daeryundf2-prog/lazyradar)** | Python | **AI Tech Radar**: Autonomous global AI tracker publishing a 5-nation (US/CN/KR/EU/JP) Top-20 leaderboard, updated weekly via GitHub Actions. |
+| **[`korean-law-mcp`](https://github.com/daeryundf2-prog/korean-law-mcp)** | TypeScript | **Korean Law MCP Server**: Statute & precedent retrieval MCP server backing the lazyforensic legal-research tooling. |
+| **[`opencode`](https://github.com/daeryundf2-prog/opencode)** | TypeScript | **AI Coding Agent**: OpenCode agent extended with an ISO 17025 skills manager. |
+| **[`raidwatch`](https://github.com/daeryundf2-prog/raidwatch)** | Python | **Seizure-Response Verification**: Stdlib-only toolkit for the defense side of search & seizure — baseline hashing, post-raid diff, and scope-violation/keyword audits. |
 
 ```mermaid
 flowchart LR
     LA["LAZYANTIGRAVITY\n(Orchestration Core)"] -->|"Quality Gates & IPC"| LF["lazyforensic\n(Evidence Integrity)"]
     LA -->|"Triage Automations"| RP["rapid\n(DFIR Workbench)"]
     LA -->|"Sanctuary Policies"| LG["lazyagentic\n(Governance & Safety)"]
-    LA -->|"Document Pipelines"| LO["lazyothers\n(Parsers & 3D Web)"]
-    LF -->|"High-Throughput Frames"| FT["frametrace\n(Rust Extraction)"]
+    LA -->|"Document Pipelines"| LO["lazyothers\n(Korean Legal-Tech)"]
+    LF -->|"Video Evidence"| FT["frametrace\n(Carving & Review)"]
     LF -->|"Synthetic Auditing"| DL["deepfake-lens\n(AI Detection)"]
 ```
 
